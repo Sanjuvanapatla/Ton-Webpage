@@ -24,7 +24,6 @@ h1 {
   object-fit: cover;
 }
 
-/* Lucky Winners Image */
 .lucky-img {
   width: 100%;
   max-width: 360px;
@@ -55,7 +54,7 @@ section.text-center img {
 }
 
 #training-carousel {
-  -ms-overflow-style: none;  
+  -ms-overflow-style: none;   
   scrollbar-width: none;     
 }
 
@@ -80,7 +79,7 @@ section.text-center img {
 
 .device-screen {
   position: absolute;
-  top: 9%;  
+  top: 9%;   
   left: 7%;
   width: 86%;
   height: 80%;
@@ -139,10 +138,4 @@ section.text-center img {
 
 .scroll-container::-webkit-scrollbar {
   display: none; 
-}
-
-.btn-light:hover {
-  background-color: #e2e6ea; 
-  transform: scale(1.05);
-  transition: all 0.3s ease;
 }
