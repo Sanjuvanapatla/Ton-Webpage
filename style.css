@@ -1,6 +1,5 @@
 /* style.css */
 
-/* Global styles */
 body {
   font-family: 'Segoe UI', sans-serif;
 }
@@ -56,8 +55,8 @@ section.text-center img {
 }
 
 #training-carousel {
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;     /* Firefox */
+  -ms-overflow-style: none;  
+  scrollbar-width: none;     
 }
 
 .device-mockup-section {
@@ -81,7 +80,7 @@ section.text-center img {
 
 .device-screen {
   position: absolute;
-  top: 9%;   /* Adjust these values to fit screen inside the frame */
+  top: 9%;  
   left: 7%;
   width: 86%;
   height: 80%;
@@ -135,15 +134,15 @@ section.text-center img {
 
 .scroll-container {
   overflow: auto;
-  scrollbar-width: none; /* Firefox */
+  scrollbar-width: none; 
 }
 
 .scroll-container::-webkit-scrollbar {
-  display: none; /* Chrome, Safari */
+  display: none; 
 }
 
 .btn-light:hover {
-  background-color: #e2e6ea; /* slightly darker */
+  background-color: #e2e6ea; 
   transform: scale(1.05);
   transition: all 0.3s ease;
 }
